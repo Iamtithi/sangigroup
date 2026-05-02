@@ -59,7 +59,7 @@ export default function Header() {
           className="flex items-center gap-2 font-bold text-xl cursor-pointer"
         >
           <Image
-            src="/logo-new.jpg.jpeg"
+            src="/Logo 27.png"
             alt="Sangi Group Logo"
             width={150}
             height={50}
