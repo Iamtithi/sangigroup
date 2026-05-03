@@ -128,26 +128,19 @@ export default function SanMotorsPage() {
           {/* Text */}
           <motion.div {...fadeUp(0.1)} className="w-full lg:w-1/2 text-gray-700">
             <h2 className="text-3xl sm:text-4xl font-semibold mb-4 text-gray-900">
-              Distinguished Vehicle <span className="text-gray-500">Importer & Supplier</span>
+              About Us
             </h2>
             <p className="leading-relaxed mb-4">
-              SAN Motor&apos;s Limited stands as a distinguished vehicle importer and
-              supplier, specializing in both commercial vehicles and private
-              cars. Our focus on delivering quality products has positioned us as
-              a leading player in Bangladesh&apos;s automotive industry.
+              Established in 2012, SAN Motors Limited is a trusted importer of high-quality vehicles from aboard mainly Japan and China. Since our inception, we have focused on delivering reliable, affordable and well-inspected cars that meet the needs of our Clients with modern systems. Our commitment to transparency, customer satisfaction and consistent quality has helped us build long lasting relationships with Clients across the market.
             </p>
+            <h2 className="text-3xl sm:text-4xl font-semibold mb-4 text-gray-900">
+              Our Mission & Vision
+            </h2>
             <p className="leading-relaxed mb-4">
-              By recognizing the growing demand for commercial vehicles across
-              the country, SAN Motor&apos;s Limited has built strong relationships
-              with trusted global manufacturers to offer top-notch vehicles that
-              combine performance, safety, and durability.
+              At San Motors Ltd, our vision is to establish ourselves as a trusted leader in Bangladesh’s imported vehicle market by maintaining the highest standards of quality, reliability, and customer service. Our mission is to deliver carefully selected vehicles that meet our clients’ needs, ensuring safety, performance, and value—while providing a smooth, transparent, and professional buying experience.
             </p>
-            <p className="leading-relaxed">
-              What truly sets us apart is our commitment to excellence—ensuring
-              that every vehicle we deliver exceeds expectations. Whether it&apos;s a
-              commercial fleet or a private car, SAN Motor&apos;s Limited remains a
-              trusted and preferred choice for dependable mobility solutions.
-            </p>
+             
+            
           </motion.div>
         </div>
       </section>
