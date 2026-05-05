@@ -140,7 +140,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between border-t border-gray-800 pt-8 text-sm text-gray-500">
           <div className="flex items-center gap-5 text-xl mb-4 md:mb-0">
             <a
-              href="https://facebook.com/sangigroup"
+              href="https://www.facebook.com/share/19xy7eNViE/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
@@ -172,7 +172,7 @@ export default function Footer() {
               <FaInstagram />
             </a>
             <a
-              href="https://youtube.com/sangigroup"
+              href="https://www.youtube.com/@SanMotors2012"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
