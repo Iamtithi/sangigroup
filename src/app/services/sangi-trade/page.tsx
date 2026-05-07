@@ -50,28 +50,37 @@ export default function SangiTradePage() {
         </div>
       </section>
 
-      {/* ---------- Company Overview (reverse layout vs SAN Motors) ---------- */}
+      {/* ---------- About Us ---------- */}
       <section className="max-w-7xl mx-auto py-20 px-6 sm:px-10 lg:px-20">
         <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
           {/* Text */}
           <motion.div {...fadeUp(0.1)} className="flex-1 text-gray-700">
+            <p className="text-sm font-semibold uppercase tracking-widest text-amber-500 mb-2">
+              Who We Are
+            </p>
             <h2 className="text-3xl sm:text-4xl font-semibold mb-4 text-gray-900">
-              <span className="text-gray-500">Global Trade</span> Local Expertise
+              Building Bridges Between Markets,{" "}
+              <span className="text-gray-500">Delivering Value Across Borders</span>
             </h2>
             <p className="leading-relaxed mb-4">
-              SANGi Trade International is the global wing of the SANGi Group,
-              connecting Bangladesh with international markets through ethical,
-              transparent, and high-efficiency trade operations.
+              SANGi Trade International is a dynamic, multi-sector trading and services
+              company headquartered in Dhaka, Bangladesh. Established in 2012 as part of
+              SANGi Group of Industries, we have grown into a trusted name in international
+              commerce — connecting global supply chains with local demand through precision,
+              integrity, and expertise.
             </p>
             <p className="leading-relaxed mb-4">
-              With decades of cumulative experience, we specialize in export,
-              procurement, and logistics — ensuring reliability across every
-              transaction.
+              Our operations span international trade and procurement, automotive products,
+              and financial services through our Islami Bank Bangladesh PLC Agent Banking
+              outlet (Outlet 383/01). With over a decade of operational excellence, we serve
+              clients across industrial, commercial, and financial sectors with a steadfast
+              commitment to seamless sourcing, competitive pricing, and on-time delivery.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              From agricultural products to industrial goods, our mission is to
-              represent Bangladesh&apos;s capacity for integrity and innovation on a
-              global stage.
+              Led by Founder and CEO Mr. Sajedul Islam — a seasoned entrepreneur with deep
+              expertise in marketing and the automotive industry — SANGi Trade International
+              continues to expand its footprint, driven by a vision of inclusive growth and
+              sustainable enterprise.
             </p>
           </motion.div>
 
@@ -84,6 +93,85 @@ export default function SangiTradePage() {
               className="object-cover rounded-xl shadow-md"
             />
           </motion.div>
+        </div>
+      </section>
+
+      {/* ---------- Mission & Vision ---------- */}
+      <section className="bg-gray-50 py-20 px-6 sm:px-10 lg:px-20">
+        <div className="max-w-7xl mx-auto">
+          
+
+          <div className="grid lg:grid-cols-2 gap-8">
+            {/* Vision */}
+            <motion.div
+              {...fadeUp(0.1)}
+              className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-cyan-950 shadow-sm p-10"
+            >
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-10 h-10 rounded-full bg-amber-400 flex items-center justify-center shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-semibold text-white">Our Vision</h3>
+              </div>
+              <p className="text-amber-300 font-semibold mb-3">
+                To be Bangladesh&apos;s most trusted and diversified trade and service organization.
+              </p>
+              <p className="text-gray-300 leading-relaxed text-sm">
+                We aspire to become a leading trading and service organization in Bangladesh —
+                recognized nationally and internationally for our commitment to quality,
+                reliability, and innovation. Our vision extends across diversified business
+                sectors and financial services, anchored by the belief that excellence in
+                commerce and inclusive economic participation go hand in hand.
+              </p>
+              <p className="text-gray-400 leading-relaxed text-sm mt-4">
+                We see a future where SANGi Trade International is synonymous with dependable
+                partnerships, world-class sourcing, and transformative financial access —
+                creating lasting value for our clients, communities, and the broader economy.
+              </p>
+            </motion.div>
+
+            {/* Mission */}
+            <motion.div
+              {...fadeUp(0.2)}
+              className="relative overflow-hidden rounded-2xl border border-amber-200 bg-white shadow-sm p-10"
+            >
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-10 h-10 rounded-full bg-amber-400 flex items-center justify-center shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-semibold text-gray-900">Our Mission</h3>
+              </div>
+              <p className="text-amber-600 font-semibold mb-3">
+                Delivering excellence through global sourcing, trusted partnerships, and purpose-driven service.
+              </p>
+              <p className="text-gray-600 leading-relaxed text-sm mb-5">
+                At SANGi Trade International, our mission is to operate with unwavering
+                professionalism across every business we touch — from global procurement to
+                agent banking — setting the standard for quality, ethics, and
+                customer-centricity in Bangladesh&apos;s commercial landscape.
+              </p>
+              <p className="text-gray-700 font-medium text-sm mb-3">We are committed to:</p>
+              <ul className="space-y-3 text-sm text-gray-600">
+                {[
+                  "Delivering superior quality products and services through efficient global sourcing and end-to-end supply chain management",
+                  "Building long-term, trust-based partnerships with clients, suppliers, and financial institutions worldwide",
+                  "Expanding into diversified sectors — including automotive, international trade, and Sharī'ah-compliant financial services — to create a resilient, multi-dimensional business",
+                  "Ensuring customer satisfaction through professionalism, transparency, and service excellence at every touchpoint",
+                  "Contributing meaningfully to inclusive economic and social development by enhancing financial accessibility for underserved communities",
+                ].map((point) => (
+                  <li key={point} className="flex items-start gap-2">
+                    <span className="text-amber-500 mt-0.5 shrink-0">✔</span>
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          </div>
         </div>
       </section>
 
