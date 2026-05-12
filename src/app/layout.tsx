@@ -1,4 +1,9 @@
 import "./globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  icons: { icon: "/favicon.ico" },
+};
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -21,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" dir="ltr" className={`${notoNaskhArabic.variable} ${notoSansSC.variable}`}>
       <head>
+        <link rel="icon" href="/favicon.ico?v=3" type="image/x-icon" />
         <script
           dangerouslySetInnerHTML={{
             __html: `

@@ -59,7 +59,7 @@ export default function ContactPage() {
             {
               icon: <MapPin className="text-amber-400" size={28} />,
               title: "Our Address",
-              text: "House 47, Siraj Market, Ranavola, Turag, Uttara, Dhaka-1230, Bangladesh",
+              text: "Shiraj Market,Ranavola, 10no Sector,Turag,Dhaka-1230, Bangladesh",
             },
             {
               icon: <Mail className="text-amber-400" size={28} />,

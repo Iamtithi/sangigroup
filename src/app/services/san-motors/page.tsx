@@ -16,43 +16,43 @@ export default function SanMotorsPage() {
     {
       name: "Toyota Corolla Cross",
       slug: "toyota-corolla-cross",
-      image: "/car1.png",
+      image: "/Toyota-Crolla-Cross.jpg.jpeg",
       desc: "Stylish compact SUV crossover combining hybrid efficiency with modern comfort and Toyota Safety Sense.",
     },
     {
       name: "Honda Insight",
       slug: "honda-insight",
-      image: "/car2.png",
+      image: "/Honda-Insight.jpg.jpeg",
       desc: "Sleek hybrid sedan delivering outstanding fuel economy and a refined driving experience.",
     },
     {
       name: "Toyota Noah Hybrid",
       slug: "toyota-noah-hybrid",
-      image: "/car3.png",
+      image: "/Toyota-Noah-Hybrid.jpg.jpeg",
       desc: "Spacious hybrid minivan with dual sliding doors and excellent fuel efficiency for families.",
     },
     {
       name: "Toyota Fielder Hybrid",
       slug: "toyota-fielder-hybrid",
-      image: "/car4.png",
+      image: "/Toyota-fielder-hybrid.jpg.jpeg",
       desc: "Practical hybrid station wagon with generous boot space and low running costs for daily commuting.",
     },
     {
       name: "Toyota Voxy X",
       slug: "toyota-voxy-x",
-      image: "/car5.png",
+      image: "/Toyota-Voxy-X.jpg.jpeg",
       desc: "Premium hybrid MPV with bold styling and advanced safety features for modern families.",
     },
     {
-      name: "Toyota Axio Non Hybrid",
-      slug: "toyota-axio-non-hybrid",
-      image: "/car6.png",
+      name: "Toyota Yaris Cross",
+      slug: "toyota-yaris-cross",
+      image: "/Toyota-Yaris-Cross.jpg.jpeg",
       desc: "Reliable compact sedan with proven VVT-i engine, comfortable interior, and low maintenance costs.",
     },
     {
       name: "Hiace Super GL",
       slug: "hiace-super-gl",
-      image: "/car7.png",
+      image: "/Hiace Super GL.jpeg",
       desc: "Premium commercial van with upgraded interior, alloy wheels, and powerful turbo diesel engine.",
     },
     {
@@ -134,7 +134,7 @@ export default function SanMotorsPage() {
               Established in 2012, SAN Motors Limited is a trusted importer of high-quality vehicles from aboard mainly Japan and China. Since our inception, we have focused on delivering reliable, affordable and well-inspected cars that meet the needs of our Clients with modern systems. Our commitment to transparency, customer satisfaction and consistent quality has helped us build long lasting relationships with Clients across the market.
             </p>
             <h2 className="text-3xl sm:text-4xl font-semibold mb-4 text-gray-900">
-              Our Mission & Vision
+               Mission & Vision
             </h2>
             <p className="leading-relaxed mb-4">
               At San Motors Ltd, our vision is to establish ourselves as a trusted leader in Bangladesh’s imported vehicle market by maintaining the highest standards of quality, reliability, and customer service. Our mission is to deliver carefully selected vehicles that meet our clients’ needs, ensuring safety, performance, and value—while providing a smooth, transparent, and professional buying experience.

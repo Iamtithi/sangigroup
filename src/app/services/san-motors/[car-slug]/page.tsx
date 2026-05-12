@@ -27,7 +27,7 @@ export function generateStaticParams() {
     { 'car-slug': "toyota-noah-hybrid" },
     { 'car-slug': "toyota-fielder-hybrid" },
     { 'car-slug': "toyota-voxy-x" },
-    { 'car-slug': "toyota-axio-non-hybrid" },
+    { 'car-slug': "toyota-yaris-cross" },
     { 'car-slug': "hiace-super-gl" },
     { 'car-slug': "hiace-trh200" },
     { 'car-slug': "hyundai-h100" },
@@ -39,7 +39,7 @@ const cars: Car[] = [
   {
     name: "Toyota Corolla Cross",
     slug: "toyota-corolla-cross",
-    image: "/car1.png",
+    image: "/Toyota-Crolla-Cross.jpg.jpeg",
     desc: "Stylish compact SUV crossover combining hybrid efficiency with modern comfort and Toyota Safety Sense.",
     specifications: {
       engine: "1.8L 2ZR-FXE Hybrid",
@@ -55,7 +55,7 @@ const cars: Car[] = [
   {
     name: "Honda Insight",
     slug: "honda-insight",
-    image: "/car2.png",
+    image: "/Honda-Insight.jpg.jpeg",
     desc: "Sleek hybrid sedan delivering outstanding fuel economy and a refined driving experience.",
     specifications: {
       engine: "1.5L DOHC i-VTEC Hybrid",
@@ -71,7 +71,7 @@ const cars: Car[] = [
   {
     name: "Toyota Noah Hybrid",
     slug: "toyota-noah-hybrid",
-    image: "/car3.png",
+    image: "/Toyota-Noah-Hybrid.jpg.jpeg",
     desc: "Spacious hybrid minivan with dual sliding doors and excellent fuel efficiency for families.",
     specifications: {
       engine: "1.8L 2ZR-FXE Hybrid",
@@ -87,7 +87,7 @@ const cars: Car[] = [
   {
     name: "Toyota Fielder Hybrid",
     slug: "toyota-fielder-hybrid",
-    image: "/car4.png",
+    image: "/Toyota-fielder-hybrid.jpg.jpeg",
     desc: "Practical hybrid station wagon with generous boot space and low running costs for daily commuting.",
     specifications: {
       engine: "1.5L 1NZ-FXE Hybrid",
@@ -103,7 +103,7 @@ const cars: Car[] = [
   {
     name: "Toyota Voxy X",
     slug: "toyota-voxy-x",
-    image: "/car5.png",
+    image: "/Toyota-Voxy-X.jpg.jpeg",
     desc: "Premium hybrid MPV with bold styling and advanced safety features for modern families.",
     specifications: {
       engine: "1.8L M20A-FXS Hybrid",
@@ -117,9 +117,9 @@ const cars: Car[] = [
     },
   },
   {
-    name: "Toyota Axio Non Hybrid",
-    slug: "toyota-axio-non-hybrid",
-    image: "/car6.png",
+    name: "Toyota Yaris Cross",
+    slug: "toyota-yaris-cross",
+    image: "/Toyota-Yaris-Cross.jpg.jpeg",
     desc: "Reliable compact sedan with proven VVT-i engine, comfortable interior, and low maintenance costs.",
     specifications: {
       engine: "1.5L 1NZ-FE VVT-i",
@@ -135,7 +135,7 @@ const cars: Car[] = [
   {
     name: "Hiace Super GL",
     slug: "hiace-super-gl",
-    image: "/car7.png",
+    image: "/Hiace Super GL.jpeg",
     desc: "Premium commercial van with upgraded interior, alloy wheels, and powerful turbo diesel engine.",
     specifications: {
       engine: "2.8L 1GD-FTV Turbo Diesel",

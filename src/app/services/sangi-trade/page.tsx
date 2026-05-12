@@ -114,7 +114,7 @@ export default function SangiTradePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-semibold text-white">Our Vision</h3>
+                <h3 className="text-2xl font-semibold text-white">Vision</h3>
               </div>
               <p className="text-amber-300 font-semibold mb-3">
                 To be Bangladesh&apos;s most trusted and diversified trade and service organization.
@@ -144,7 +144,7 @@ export default function SangiTradePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900">Our Mission</h3>
+                <h3 className="text-2xl font-semibold text-gray-900">Mission</h3>
               </div>
               <p className="text-amber-600 font-semibold mb-3">
                 Delivering excellence through global sourcing, trusted partnerships, and purpose-driven service.
