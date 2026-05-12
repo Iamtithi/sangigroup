@@ -137,10 +137,10 @@ export default function SanMotorsPage() {
                Mission & Vision
             </h2>
             <p className="leading-relaxed mb-4">
-              At San Motors Ltd, our vision is to establish ourselves as a trusted leader in Bangladesh’s imported vehicle market by maintaining the highest standards of quality, reliability, and customer service. Our mission is to deliver carefully selected vehicles that meet our clients’ needs, ensuring safety, performance, and value—while providing a smooth, transparent, and professional buying experience.
+              Mission To source and deliver premium imported vehicles with full transparency, competitive value, and a smooth buying experience — ensuring every customer drives away with confidence.
+
+              Vision To be Bangladesh's most trusted leader in the imported vehicle market — recognized for quality, reliability, and a customer experience that sets the standard.
             </p>
-             
-            
           </motion.div>
         </div>
       </section>

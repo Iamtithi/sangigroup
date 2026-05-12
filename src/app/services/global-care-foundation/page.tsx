@@ -68,28 +68,63 @@ export default function AbdusSattarFoundationPage() {
           {...fadeUp()}
           className="text-3xl sm:text-4xl font-semibold mb-8 text-[#1f3a3d]"
         >
-          <span className="text-gray-500">About</span> the Foundation
+          <span className="text-gray-500">Who</span> we are
         </motion.h2>
         <motion.p
           {...fadeUp(0.1)}
           className="max-w-4xl mx-auto text-gray-600 leading-relaxed mb-6"
         >
-          SAN Global Care Foundation is a non-profit organization committed to making a lasting positive impact. We focus on education, healthcare, and community development to uplift the lives of those in need.
+          SAN Global Care Foundation is a non-profit humanitarian organization committed to creating sustainable social change across Bangladesh. Rooted in voluntary service since 2015 and formally registered in 2026, we are the charitable wing of SANGi Group — dedicated to uplifting vulnerable communities through healthcare, education, emergency relief, and livelihood support.
+
         </motion.p>
         <motion.p
           {...fadeUp(0.2)}
           className="max-w-4xl mx-auto text-gray-600 leading-relaxed"
         >
-          Guided by a sense of social responsibility and collaboration, we actively engage with local communities to drive sustainable solutions. Together, we aim to build a future where everyone can thrive and contribute to society.
+          We believe lasting progress comes through sustained investment in people, guided by compassion, integrity, and a deep respect for human dignity.
         </motion.p>
+      </section>
+
+      {/* ---------- MISSION & VISION ---------- */}
+      <section className="py-20 px-6 sm:px-10 lg:px-20 bg-gradient-to-b from-[#1f3a3d] via-[#2c4c4c] to-[#1f3a3d]">
+        <div className="max-w-6xl mx-auto">
+         {/* <motion.h2
+            {...fadeUp()}
+            className="text-3xl sm:text-4xl font-semibold text-center mb-12 text-white"
+          >
+            Our <span className="text-amber-400">Mission & Vision</span>
+          </motion.h2>*/}
+          <div className="grid md:grid-cols-2 gap-8">
+            <motion.div
+              {...fadeUp(0.1)}
+              className="bg-white/5 border border-white/10 rounded-xl p-10 hover:bg-white/10 transition-all duration-300"
+            >
+              <div className="text-4xl mb-4">🌟</div>
+              <h3 className="text-2xl font-semibold text-amber-400 mb-4">Vision</h3>
+              <p className="text-gray-300 leading-relaxed">
+                To become a leading humanitarian organization in Bangladesh — empowering vulnerable communities and driving sustainable positive change through healthcare, education, and social development.
+              </p>
+            </motion.div>
+            <motion.div
+              {...fadeUp(0.2)}
+              className="bg-white/5 border border-white/10 rounded-xl p-10 hover:bg-white/10 transition-all duration-300"
+            >
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="text-2xl font-semibold text-amber-400 mb-4">Mission</h3>
+              <p className="text-gray-300 leading-relaxed">
+                To serve underprivileged communities through impactful humanitarian initiatives, ethical leadership, and long-term development programs — improving lives, restoring dignity, and building resilient communities for generations to come.
+              </p>
+            </motion.div>
+          </div>
+        </div>
       </section>
 
       {/* ---------- IMPACT HIGHLIGHTS ---------- */}
       <section className="bg-white text-white pb-20 px-6 sm:px-10 lg:px-20">
         <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
           {[
-            { value: "10K+", label: "Students Educated" },
-            { value: "5K+", label: "Families Supported" },
+            { value: "1K+", label: "Students Educated" },
+            { value: "500+", label: "Families Supported" },
             { value: "50+", label: "Healthcare Camps" },
             { value: "20+", label: "Scholarships Granted" },
           ].map((item, i) => (
