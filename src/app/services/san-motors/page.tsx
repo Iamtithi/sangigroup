@@ -138,7 +138,9 @@ export default function SanMotorsPage() {
             </h2>
             <p className="leading-relaxed mb-4">
               Mission To source and deliver premium imported vehicles with full transparency, competitive value, and a smooth buying experience — ensuring every customer drives away with confidence.
+            </p>
 
+            <p className="leading-relaxed mb-4">
               Vision To be Bangladesh's most trusted leader in the imported vehicle market — recognized for quality, reliability, and a customer experience that sets the standard.
             </p>
           </motion.div>
