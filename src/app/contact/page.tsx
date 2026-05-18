@@ -64,7 +64,7 @@ export default function ContactPage() {
             {
               icon: <Mail className="text-amber-400" size={28} />,
               title: "Email Us",
-              text: "info@sangibd.com / sangitrade25@gmail.com",
+              text: "info@sangibd.com ",
             },
             {
               icon: <Phone className="text-amber-400" size={28} />,

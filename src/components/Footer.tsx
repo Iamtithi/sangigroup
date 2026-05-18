@@ -130,7 +130,7 @@ export default function Footer() {
               <li>
                 <span className="text-white font-medium">Email:</span>
                 <br />
-                info@sangibd.com  /  sangitrade25@gmail.com
+                info@sangibd.com 
               </li>
             </ul>
           </div>
