@@ -93,7 +93,7 @@ export default function ContactPage() {
           {/* Map */}
           <motion.div {...fadeUp()} className="w-full h-[420px] rounded-xl overflow-hidden border border-gray-200 shadow-sm">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110967.56061472098!2d90.23177249726565!3d23.8808029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c500752e1991%3A0xe04b24d1b77fae96!2sShiraj%20market%2C%20Ranavola%2C%2010no%20Sector%2C%20Turag%2C%20Dhaka!5e1!3m2!1sen!2sbd!4v1765989538237!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.250105014857!2d90.38056307389745!3d23.88074838376242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c59b218a7445%3A0xa49f4e3ad38fd324!2sSANGi%20Trade%20International!5e0!3m2!1sen!2sbd!4v1779086342041!5m2!1sen!2sbd"
               className="w-full h-full border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

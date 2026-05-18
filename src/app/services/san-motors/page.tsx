@@ -58,7 +58,7 @@ export default function SanMotorsPage() {
     {
       name: "Hiace TRH200",
       slug: "hiace-trh200",
-      image: "/car8.png",
+      image: "/Hiace TRH200.jpeg",
       desc: "Workhorse passenger van seating up to 15, built for durability and high-capacity transport.",
     },
     {
@@ -67,12 +67,7 @@ export default function SanMotorsPage() {
       image: "/car9.png",
       desc: "Compact yet capable commercial pickup suited for delivery and transport efficiency.",
     },
-    {
-      name: "Mazda Bongo",
-      slug: "mazda-bongo",
-      image: "/car10.png",
-      desc: "Trusted commercial van ensuring performance, space, and cost-effectiveness for business users.",
-    },
+    
   ];
 
   return (
@@ -141,7 +136,7 @@ export default function SanMotorsPage() {
             </p>
 
             <p className="leading-relaxed mb-4">
-              Vision To be Bangladesh's most trusted leader in the imported vehicle market — recognized for quality, reliability, and a customer experience that sets the standard.
+              Vision To be Bangladesh&apos;s most trusted leader in the imported vehicle market — recognized for quality, reliability, and a customer experience that sets the standard.
             </p>
           </motion.div>
         </div>

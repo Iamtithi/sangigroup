@@ -151,7 +151,7 @@ const cars: Car[] = [
   {
     name: "Hiace TRH200",
     slug: "hiace-trh200",
-    image: "/car8.png",
+    image: "/Hiace TRH200.jpeg",
     desc: "Workhorse passenger van seating up to 15, built for durability and high-capacity transport.",
     specifications: {
       engine: "2.7L 2TR-FE Petrol",
@@ -180,22 +180,7 @@ const cars: Car[] = [
       features: ["Cargo Bed", "Diesel Engine", "ABS Brakes", "Power Steering", "Bluetooth Audio"],
     },
   },
-  {
-    name: "Mazda Bongo",
-    slug: "mazda-bongo",
-    image: "/car10.png",
-    desc: "Trusted commercial van ensuring performance, space, and cost-effectiveness for business users.",
-    specifications: {
-      engine: "2.2L Turbo Diesel",
-      power: "110 hp",
-      torque: "300 Nm",
-      transmission: "5-Speed Manual",
-      fuelType: "Diesel",
-      seating: "3 passengers + cargo",
-      dimensions: "4.9m x 1.7m x 2.0m",
-      features: ["Cargo Van", "Rear Doors", "Diesel Efficiency", "Reliable Performance", "Commercial Grade"],
-    },
-  },
+  
 ];
 
 export default async function CarDetailPage(props: { params: Promise<{ 'car-slug': string }> }) {

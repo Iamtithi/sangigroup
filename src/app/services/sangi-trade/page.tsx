@@ -446,7 +446,7 @@ export default function SangiTradePage() {
             title: "Our Promise",
             text: "Ethical business practices and total commitment to quality — delivering with reliability and consistency every time.",
           },
-        ].map((item, i) => (
+        ].map((item) => (
           <div
             key={item.title}
             className="
